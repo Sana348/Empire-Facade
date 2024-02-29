@@ -11,7 +11,7 @@ export function Button({
     borderClassName,
     duration,
     className,
-    ...otherProps
+    
   }: {
     borderRadius?: string;
     children: React.ReactNode;
