@@ -1,5 +1,5 @@
 'use client'
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import {InfiniteMovingCards} from './ui/Infinite-moving-cards';
 
 const musicSchoolTestimonials = [
     {
