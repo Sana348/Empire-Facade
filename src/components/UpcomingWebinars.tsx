@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link"
-
+import { HoverEffect } from "./ui/card-hover-effect";
 
 function UpcomingWebinars() {
 
@@ -59,7 +59,7 @@ function UpcomingWebinars() {
         </div>
 
         <div className="mt-10">
-          {/* <HoverEffect
+          <HoverEffect
           items={featuredWebinars.map(webinar => (
             {
               title: webinar.title,
@@ -67,7 +67,7 @@ function UpcomingWebinars() {
               link: '/'
             }
           ))}
-          /> */}
+          />
         </div>
 
         <div className="mt-10 text-center">
