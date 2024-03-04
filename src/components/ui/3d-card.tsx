@@ -4,7 +4,7 @@ import { cn } from "@/utils/cn";
 import Image from "next/image";
 import React, {
   createContext,
-  useState,e
+  useState,
   useContext,
   useRef,
   useEffect,
