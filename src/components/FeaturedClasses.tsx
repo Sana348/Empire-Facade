@@ -1,8 +1,10 @@
+"use client"
+
 import Link from "next/link"
 import classesData from "../data/classes_training.json";
 import { BackgroundGradient } from "./ui/background-gradient"
 
-interface Course {
+interface classes {
     id: number,
     title: string,
     slug: string,
@@ -14,7 +16,7 @@ interface Course {
 }
 
 function FeaturedClasses() {
-    const FeaturedClasses = classesData.classes.filter((course: Course) => course.isFeatured)
+    const FeaturedClasses = classesData.classes.filter((classes: classes) => classes.isFeatured)
 
     return (
         <div className="py-12 bg-gray-900">
@@ -26,17 +28,17 @@ function FeaturedClasses() {
             </div>
             <div className="mt-10 mx-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-                    {FeaturedClasses.map((course: Course) => (
-                        <div key={course.id} className="flex justify-center">
+                    {FeaturedClasses.map((classes: classes) => (
+                        <div key={classes.id} className="flex justify-center">
                             <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                                    <img src={course.image} alt={course.title} className="w-full h-40 object-cover mb-4" />
-                                    <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
-                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
-                                    <p className="text-lg font-semibold text-teal-600 mt-4 mb-2">${course.price}</p>
-                                    <Link href={`/classes/${course.slug}`}>
-                                        <a className="text-lg font-semibold text-white bg-teal-600 rounded-full px-6 py-2 hover:bg-teal-700 transition duration-200">Enroll Now</a>
-                                    </Link>
+                                    <img src={classes.image} alt={classes.title} className="w-full h-40 object-cover mb-4" />
+                                    <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{classes.title}</p>
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{classes.description}</p>
+                                    <p className="text-lg font-semibold text-teal-600 mt-4 mb-2">${classes.price}</p>
+                                    <Link href={`/classes/${classes.slug}`}>
+                                        Learn more
+                                        </Link>
                                 </div>
                             </BackgroundGradient>
                         </div>

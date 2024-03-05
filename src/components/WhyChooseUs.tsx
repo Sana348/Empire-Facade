@@ -1,47 +1,46 @@
-
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
-const musicSchoolContent = [
+const fitnessWellContent = [
     {
-        title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+        title: 'Personalized Fitness Journey',
         description:
-            'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
+            'Embark on a fitness journey tailored to your unique needs and goals. Our personalized approach ensures that every aspect of your fitness plan is designed to maximize results and promote overall well-being.',
     },
     {
-        title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+        title: 'Expert Guidance and Support',
         description:
-            'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
+            'Receive guidance from certified fitness professionals who are dedicated to helping you achieve your fitness goals. Our team provides ongoing support and motivation to keep you on track and motivated throughout your journey.',
     },
     {
-        title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+        title: 'Interactive Workouts for Real-time Feedback',
         description:
-            'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
+            'Engage in interactive workouts where feedback is immediate, allowing you to make real-time adjustments and improvements. This interactive approach enhances your understanding of fitness concepts and ensures efficient progress.',
     },
     {
-        title: 'Live Feedback & Engagement',
+        title: 'Cutting-Edge Fitness Programs',
         description:
-            'Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques.',
+            'Our fitness programs are developed based on the latest industry research and trends, ensuring that you have access to the most effective and innovative workout routines. Stay ahead of the curve with our cutting-edge fitness curriculum.',
     },
     {
-        title: 'Cutting-Edge Curriculum',
+        title: 'Flexible Learning Options',
         description:
-            'Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.',
+            'Choose from a variety of flexible learning options, including live classes, on-demand workouts, and personalized training sessions. Our platform offers limitless opportunities for learning and growth, allowing you to customize your fitness journey to fit your schedule and preferences.',
     },
     {
-        title: 'Limitless Learning Opportunities',
+        title: 'Community Support and Accountability',
         description:
-            'With our expansive resource library and dynamic course offerings, you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.',
+            'Join a supportive community of like-minded individuals who share your passion for fitness and wellness. Our community provides encouragement, accountability, and inspiration to help you stay motivated and committed to your fitness goals.',
     },
 ];
 
 function WhyChooseUs() {
     return (
         <div>
-            <StickyScroll content={musicSchoolContent} />
+            <StickyScroll content={fitnessWellContent} />
         </div>
     )
 }
 
-export default WhyChooseUs
+export default WhyChooseUs;

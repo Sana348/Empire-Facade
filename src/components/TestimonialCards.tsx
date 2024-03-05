@@ -1,47 +1,47 @@
-'use client'
-import {InfiniteMovingCards} from './ui/Infinite-moving-cards';
+'use client';
+import { InfiniteMovingCards } from './ui/Infinite-moving-cards';
 
-const musicSchoolTestimonials = [
+const fitnessWellTestimonials = [
     {
       quote:
-        'Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!',
-      name: 'Alex Johnson',
-      title: 'Guitar Student',
+        'Joining the fitness program transformed my understanding of wellness and helped me to achieve my fitness goals. The trainers are incredibly supportive!',
+      name: 'Jessica Smith',
+      title: 'Fitness Enthusiast',
     },
     {
       quote:
-        "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
-      name: 'Samantha Lee',
-      title: 'Piano Student',
+        "The community and support at this fitness center are unparalleled. I've not only improved my physical health but also found a supportive community to share my fitness journey with.",
+      name: 'David Johnson',
+      title: 'Fitness Participant',
     },
     {
       quote:
-        "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
-      name: 'Michael Chen',
-      title: 'Vocal Student',
+        "This program provided me with the tools and motivation to take my fitness to the next level. I'm grateful for the personalized coaching and encouragement.",
+      name: 'Emily Carter',
+      title: 'Fitness Trainee',
     },
     {
       quote:
-        'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
-      name: 'Emily Taylor',
-      title: 'Violin Student',
+        'As someone new to fitness, finding the right guidance can be challenging, but this program matched me with a trainer who truly understands my needs and challenges.',
+      name: 'Michael Brown',
+      title: 'Fitness Beginner',
     },
     {
       quote:
-        'The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!',
-      name: 'Chris Morales',
-      title: 'Music Production Student',
+        'The workout sessions here have not only improved my physical strength but also boosted my confidence. Highly recommend for anyone looking to enhance their fitness journey!',
+      name: 'Sophia Evans',
+      title: 'Fitness Enthusiast',
     },
   ];
 
-function MusicSchoolTestimonials() {
+function FitnessWellTestimonials() {
   return (
     <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
-        <h2 className="text-3xl font-bold text-center mb-8 z-10">Hear our Harmony: Voices of success</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 z-10">Hear Our Success Stories: Voices of Achievement</h2>
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
             <div className="w-full max-w-6xl">
             <InfiniteMovingCards
-                items={musicSchoolTestimonials}
+                items={fitnessWellTestimonials}
                 direction="right"
                 speed="slow"
       />
@@ -51,4 +51,4 @@ function MusicSchoolTestimonials() {
   )
 }
 
-export default MusicSchoolTestimonials
+export default FitnessWellTestimonials;
