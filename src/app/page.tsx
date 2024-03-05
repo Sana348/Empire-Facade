@@ -1,4 +1,4 @@
-import FeaturedCourses from '@/components/FeaturedCourses'
+import FeaturedClasses from '@/components/FeaturedClasses'
 import HeroSection from '../components/HeroSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import MusicSchoolTestimonials from '@/components/TestimonialCards'
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
     <HeroSection/>
-    <FeaturedCourses/>
+    <FeaturedClasses/>
     <WhyChooseUs/>
     <MusicSchoolTestimonials/>
     <UpcomingWebinars/>
