@@ -37,7 +37,7 @@ function FeaturedClasses() {
                                     <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{classes.description}</p>
                                     <p className="text-lg font-semibold text-teal-600 mt-4 mb-2">${classes.price}</p>
                                     <Link href={`/classes/${classes.slug}`}>
-                                        Learn more
+                                        Learn More
                                         </Link>
                                 </div>
                             </BackgroundGradient>

@@ -15,31 +15,27 @@ function Navbar({ className }: { className?: string }) {
                         Home
                     </MenuItem>
                 </Link>
-                <MenuItem setActive={setActive} active={active} item="About Us">
-                    <Link href="/about">
-                        <HoveredLink>About Us</HoveredLink>
-                    </Link>
-                </MenuItem>
-                <MenuItem setActive={setActive} active={active} item="Our Services">
+                
+                <MenuItem setActive={setActive} active={active} item="Services">
                     <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/services">All Services</HoveredLink>
-                        <HoveredLink href="/services/nutrition">
+                        <HoveredLink href="/classes">All Services</HoveredLink>
+                        <HoveredLink href="/classes">
                             Nutrition Counseling
                         </HoveredLink>
-                        <HoveredLink href="/services/fitness-training">
+                        <HoveredLink href="/classes">
                             Fitness Training
                         </HoveredLink>
-                        <HoveredLink href="/services/yoga">Yoga Classes</HoveredLink>
-                        <HoveredLink href="/services/mental-wellness">
+                        <HoveredLink href="/classes">Yoga Classes</HoveredLink>
+                        <HoveredLink href="/classes">
                             Mental Wellness Programs
                         </HoveredLink>
                     </div>
                 </MenuItem>
                 <Link href={"/contact"}>
-                    <MenuItem setActive={setActive} active={active} item="Contact Us">
-                        Contact Us
-                    </MenuItem>
-                </Link>
+            <MenuItem setActive={setActive} active={active} item="Contact Us">
+            Contact us
+            </MenuItem>
+            </Link>
             </Menu>
         </div>
     );
