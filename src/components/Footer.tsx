@@ -7,9 +7,7 @@ function Footer() {
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
             <p className="mb-4">
-              Music School is a premier institution dedicated to teaching the art
-              and science of music. We nurture talent from the ground up,
-              fostering a vibrant community of musicians.
+            At FitnessWell, we believe in empowering individuals to lead healthier and happier lives. Our mission is to provide personalized fitness programs, expert guidance, and a supportive community to help you achieve your wellness goals. With a team of experienced trainers and a variety of classes and workshops, we're here to support you on your journey to better health and fitness.
             </p>
           </div>
           <div>
@@ -25,7 +23,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={"/about"}
                   className="hover:text-white transition-colors duration-300"
                 >
                   About
@@ -33,15 +31,15 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href={"/classes"}
                   className="hover:text-white transition-colors duration-300"
                 >
-                  Courses
+                  Classes
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href={"/contact"}
                   className="hover:text-white transition-colors duration-300"
                 >
                   Contact
@@ -56,7 +54,7 @@ function Footer() {
                 href="#"
                 className="hover:text-white transition-colors duration-300"
               >
-                Facebook
+                Linkedin
               </a>
               <a
                 href="#"
@@ -76,11 +74,11 @@ function Footer() {
             <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
             <p>New Delhi, India</p>
             <p>Delhi 10001</p>
-            <p>Email: info@musicschool.com</p>
+            <p>Email: misana@gmail.com</p>
             <p>Phone: (123) 456-7890</p>
           </div>
           </div>
-          <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+          <p className="text-center text-xs pt-8">© 2024 FitnessWell. All rights reserved.</p>
       </footer>
     )
   }
