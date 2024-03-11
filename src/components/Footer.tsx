@@ -7,7 +7,7 @@ function Footer() {
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
             <p className="mb-4">
-            At FitnessWell, we believe in empowering individuals to lead healthier and happier lives. Our mission is to provide personalized fitness programs, expert guidance, and a supportive community to help you achieve your wellness goals. With a team of experienced trainers and a variety of classes and workshops, we're here to support you on your journey to better health and fitness.
+            At FitnessWell, we believe in empowering individuals to lead healthier and happier lives. Our mission is to provide personalized fitness programs, expert guidance, and a supportive community to help you achieve your wellness goals. With a team of experienced trainers and a variety of classes and workshops, we are here to support you on your journey to better health and fitness.
             </p>
           </div>
           <div>
