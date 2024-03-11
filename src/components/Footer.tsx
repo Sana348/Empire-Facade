@@ -22,12 +22,13 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href={"/about"}
-                  className="hover:text-white transition-colors duration-300"
-                >
-                  About
-                </a>
+              <a
+  href="/about"
+  className="hover:text-white transition-colors duration-300"
+>
+  About
+</a>
+
               </li>
               <li>
                 <a
