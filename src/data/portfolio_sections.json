@@ -1,0 +1,168 @@
+{"portfolioSections" : [
+{
+  "id": 1,
+  "title": "Acp",
+  "slug": "acp",
+  "description": "Explore our ACP facade applications.",
+  "isFeatured": true,
+  "mainImage": "/images/acp/acp (1).jpg",
+  "images": ["/images/acp/acp (2).jpg", "/images/acp/acp (3).jpg", "/images/acp/acp (4).jpg", "/images/acp/acp (5).jpg", "/images/acp/acp (6).jpg"]
+},
+{
+  "id": 2,
+  "title": "Glass Canopy",
+  "slug": "canopy",
+  "description": "Innovative canopy designs.",
+  "isFeatured": true,
+  "mainImage": "/images/canopy/canopy (1).jpg",
+  "images": ["/images/canopy/canopy (2).jpg", "/images/canopy/canopy (3).jpg", "/images/canopy/canopy (4).jpg", "/images/canopy/canopy (5).jpg"]
+},
+{
+  "id": 3,
+  "title": "Dom",
+  "slug": "dom",
+  "description": "Stylish dom structures for architecture.",
+  "isFeatured": true,
+  "mainImage": "/images/dom/dom (1).jpg",
+  "images": ["/images/dom/dom (2).jpg", "/images/dom/dom (3).jpg", "/images/dom/dom (4).jpg", "/images/dom/dom (5).jpg", "/images/dom/dom (6).jpg"]
+},
+{
+  "id": 4,
+  "title": "Door",
+  "slug": "door",
+  "description": "Elegant aluminum door designs.",
+  "isFeatured": true,
+  "mainImage": "/images/door/door (1).jpg",
+  "images": ["/images/door/door (2).jpg", "/images/door/door (3).jpg", "/images/door/door (4).jpg", "/images/door/door (5).jpg", "/images/door/door (6).jpg"]
+},
+{
+  "id": 5,
+  "title": "Electric Door",
+  "slug": "electricdoor",
+  "description": "Electric doors with modern technology.",
+  "isFeatured": true,
+  "mainImage": "/images/electricdoor/electricdoor (1).jpg",
+  "images": ["/images/electricdoor/electricdoor (2).jpg", "/images/electricdoor/electricdoor (3).jpg", "/images/electricdoor/electricdoor (4).jpg", "/images/electricdoor/electricdoor (5).jpeg"]
+},
+{
+  "id": 6,
+  "title": "Fire Door",
+  "slug": "firedoor",
+  "description": "High-quality fire doors for safety.",
+  "isFeatured": true,
+  "mainImage": "/images/firedoor/firedoor (1).jpg",
+  "images": ["/images/firedoor/firedoor (2).jpg", "/images/firedoor/firedoor (3).jpg", "/images/firedoor/firedoor (4).jpg", "/images/firedoor/firedoor (5).jpg"]
+},
+{
+  "id": 7,
+  "title": "Fundermax",
+  "slug": "fundermax",
+  "description": "Durable Fundermax solutions.",
+  "isFeatured": true,
+  "mainImage": "/images/fundermax/fundermax (1).jpeg",
+  "images": ["/images/fundermax/fundermax (2).jpeg", "/images/fundermax/fundermax (3).jpg", "/images/fundermax/fundermax (4).jpg", "/images/fundermax/fundermax (5).jpg"]
+},
+{
+  "id": 8,
+  "title": "Moduler Kitchen",
+  "slug": "kitchen",
+  "description": "Modern modular kitchen designs.",
+  "isFeatured": true,
+  "mainImage": "/images/kitchen/kitchen (1).jpg",
+  "images": ["/images/kitchen/kitchen (2).jpg", "/images/kitchen/kitchen (3).jpg", "/images/kitchen/kitchen (4).jpg", "/images/kitchen/kitchen (5).jpg", "/images/kitchen/kitchen (6).jpg"]
+},
+{
+  "id": 9,
+  "title": "Lowers",
+  "slug": "lowers",
+  "description": "Functional lower cabinet designs.",
+  "isFeatured": true,
+  "mainImage": "/images/lower/lower (1).jpeg",
+  "images": ["/images/lower/lower (2).jpeg", "/images/lower/lower (3).jpg", "/images/lower/lower (4).jpg", "/images/lower/lower (5).jpg"]
+},
+
+{
+  "id": 10,
+  "title": "Partition",
+  "slug": "partition",
+  "description": "Creative partitioning solutions.",
+  "isFeatured": true,
+  "mainImage": "/images/partition/partition (1).jpeg",
+  "images": ["/images/partition/partition (2).jpeg", "/images/partition/partition (3).jpg", "/images/partition/partition (4).jpg", "/images/partition/partition (5).jpg", "/images/partition/partition (6).jpeg"]
+},
+{
+  "id": 11,
+  "title": "Patch Fitting",
+  "slug": "patchfitting",
+  "description": "Modern patch fitting techniques.",
+  "isFeatured": true,
+  "mainImage": "/images/patchfitting/patchfitting (1).jpg",
+  "images": ["/images/patchfitting/patchfitting (2).jpg", "/images/patchfitting/patchfitting (3).jpg", "/images/patchfitting/patchfitting (4).jpg", "/images/patchfitting/patchfitting (5).jpg", "/images/patchfitting/patchfitting (6).jpeg"]
+},
+{
+  "id": 12,
+  "title": "Porch",
+  "slug": "porch",
+  "description": "Attractive porch designs.",
+  "isFeatured": true,
+  "mainImage": "/images/porch/porch (1).jpg",
+  "images": ["/images/porch/porch (2).jpg", "/images/porch/porch (3).jpg", "/images/porch/porch (4).jpg", "/images/porch/porch (5).jpg"]
+},
+{
+  "id": 13,
+  "title": "Racks",
+  "slug": "racks",
+  "description": "Durable and versatile rack solutions.",
+  "isFeatured": true,
+  "mainImage": "/images/racks/racks (1).jpg",
+  "images": ["/images/racks/racks (2).jpg", "/images/racks/racks (3).jpg"]
+},
+{
+  "id": 14,
+  "title": "Shower Door",
+  "slug": "showerdoor",
+  "description": "Elegant shower door designs.",
+  "isFeatured": true,
+  "mainImage": "/images/showerdoor/showerdoor (1).jpg",
+  "images": ["/images/showerdoor/showerdoor (2).jpg", "/images/showerdoor/showerdoor (3).jpg", "/images/showerdoor/showerdoor (4).jpg", "/images/showerdoor/showerdoor (5).jpg", "/images/showerdoor/showerdoor (6).jpg"]
+},
+
+{
+  "id": 15,
+  "title": "Spider",
+  "slug": "spider",
+  "description": "Spider glass fittings for facades.",
+  "isFeatured": true,
+  "mainImage": "/images/spider/spider (1).jpeg",
+  "images": ["/images/spider/spider (2).jpeg", "/images/spider/spider (3).jpeg", "/images/spider/spider (4).jpg", "/images/spider/spider (5).jpg"]
+},
+{
+  "id": 16,
+  "title": "Toilet Doors",
+  "slug": "toilet",
+  "description": "Modern and functional toilet designs.",
+  "isFeatured": true,
+  "mainImage": "/images/toilet/toilet (1).jpeg",
+  "images": ["/images/toilet/toilet (2).jpeg", "/images/toilet/toilet (3).jpeg", "/images/toilet/toilet (4).jpeg", "/images/toilet/toilet (5).jpeg"]
+},
+{
+  "id": 17,
+  "title": "Ventilators",
+  "slug": "ventilators",
+  "description": "Efficient and stylish ventilator designs.",
+  "isFeatured": true,
+  "mainImage": "/images/ventilators/ventilators (1).jpg",
+  "images": ["/images/ventilators/ventilators (2).jpg", "/images/ventilators/ventilators (3).jpg", "/images/ventilators/ventilators (4).jpg", "/images/ventilators/ventilators (5).jpg"]
+},
+
+{
+  "id": 18,
+  "title": "Window",
+  "slug": "window",
+  "description": "Aluminum windows for every application.",
+  "isFeatured": true,
+  "mainImage": "/images/window/window (1).jpg",
+  "images": ["/images/window/window (2).jpg", "/images/window/window (3).jpg", "/images/window/window (4).jpg", "/images/window/window (5).jpg"]
+}
+] }
+
